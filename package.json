@@ -1,0 +1,38 @@
+{
+  "name": "f7-svelte-ui",
+  "private": true,
+  "version": "1.0.0",
+  "description": "f7-svelte-ui",
+  "repository": "",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "cross-env NODE_ENV=development vite",
+    "build": "cross-env NODE_ENV=production vite build",
+    "postinstall": "cpy --flat ./node_modules/framework7-icons/fonts/*.* ./src/fonts/ && cpy --flat ./node_modules/material-icons/iconfont/*.* ./src/fonts/"
+  },
+  "browserslist": [
+    "IOS >= 13",
+    "Safari >= 13",
+    "last 5 Chrome versions",
+    "last 5 Firefox versions",
+    "Samsung >= 12"
+  ],
+  "dependencies": {
+    "dom7": "^4.0.4",
+    "framework7": "^7.0.1",
+    "framework7-icons": "^5.0.5",
+    "framework7-svelte": "^7.0.1",
+    "material-icons": "^1.10.8",
+    "skeleton-elements": "^4.0.0",
+    "svelte": "^3.47.0",
+    "swiper": "^8.1.1"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.41",
+    "cpy-cli": "^4.1.0",
+    "cross-env": "^7.0.3",
+    "postcss-preset-env": "^7.4.3",
+    "vite": "^2.9.5"
+  }
+}

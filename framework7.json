@@ -1,0 +1,19 @@
+{
+  "cwd": "/Users/zuz/project/f7/f7-svelte-ui",
+  "type": [
+    "web"
+  ],
+  "name": "f7-svelte-ui",
+  "framework": "svelte",
+  "template": "blank",
+  "cssPreProcessor": false,
+  "bundler": "vite",
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false
+}
